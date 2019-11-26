@@ -2593,9 +2593,16 @@ webkit-box-orient: vertical;
 .carousel h1 {
 	color: #fff;
 	position: center;
-	padding-left: 34em;
+	padding-left: 0em;
 	padding-top: 0%;
+
+
 }
+
+.carousel h2 {
+	color: #fafafa;
+	position: center;
+	
 
 /* Wide */
 
