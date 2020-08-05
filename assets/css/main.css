@@ -2158,7 +2158,7 @@
 /* Nav */
 
 	#nav {
-		position: absolute;
+		position: bottom;
 		top: 0;
 		left: 0;
 		width: 100%;
@@ -2167,7 +2167,20 @@
 		padding: 2em 0 2em 0;
 		color: #fff;
 		z-index: 2;
-		overflow: hidden;
+		overflow: hidden;}
+
+	#nad {
+		position: bottom;
+		top: 20em;
+		left: 0;
+		width: 100%;
+		height:	0%;
+		text-align: center;
+		padding: 2em 0 2em 0;
+		color: #fff;
+		z-index: 2;
+		overflow: hidden;}
+
 	/*	-moz-transition: opacity 2.5s ease-in-out;
 			-webkit-transition: opacity 2.5s ease-in-out;
 			-ms-transition: opacity 2.5s ease-in-out;
@@ -2474,11 +2487,11 @@ webkit-box-orient: vertical;
 /* Carousel */
 
 	.carousel {
-		position: relative;
+		position: absolute;
 		overflow: hidden;
 		padding: 2em 0 2em 0;
 		margin-bottom: 0;
-		margin-top: 5em;
+		margin-top: 0em;
 		background-color: #000000;
 
 	}
